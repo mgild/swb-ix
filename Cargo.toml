@@ -1,0 +1,30 @@
+[package]
+name = "swb-ix"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anchor-lang = "0.31.1"
+base64 = "0.22.1"
+bytemuck = "1.23.1"
+dotenv = "0.15.0"
+futures = "0.3.31"
+futures-util = "0.3.31"
+hex = "0.4.3"
+reqwest = "0.12.23"
+rust_decimal = "1.37.2"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.143"
+solana-account-decoder = "2.1.20"
+solana-client = "2.1.20"
+solana-sdk = "2.1.20"
+solana-system-interface = "1.0.0"
+spl-associated-token-account = { version = "7.0.0", features = [
+    "no-entrypoint",
+] }
+spl-token = { version = "8.0.0", features = ["no-entrypoint"] }
+switchboard-on-demand = "0.8.0"
+switchboard-on-demand-client = { path = "/Users/mgild/projects/sbv3/rust/switchboard-on-demand-client" }
+tokio = { version = "1.47.1", features = ["full", "tracing"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.20"
