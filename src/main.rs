@@ -28,7 +28,7 @@ pub const SWITCHBOARD_ACCOUNT_QUEUE: Pubkey =
 async fn main() {
     tracing::info!("lfg🚀🚀");
     let _ = dotenv().ok();
-    let private_key = "/Users/mgild/switchboard_environments_v2/mainnet/upgrade_authority/upgrade_authority.json";
+    let private_key = "/path/to/your/solana/id.json";
     let kp = Keypair::read_from_file(&private_key).unwrap();
     let rpc_url =
         env::var("RPC_URL").expect("Missing 'SOLANA_HTTP_URL' in environment variables");

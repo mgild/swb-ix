@@ -24,7 +24,7 @@ spl-associated-token-account = { version = "7.0.0", features = [
 ] }
 spl-token = { version = "8.0.0", features = ["no-entrypoint"] }
 switchboard-on-demand = "0.8.0"
-switchboard-on-demand-client = { path = "/Users/mgild/projects/sbv3/rust/switchboard-on-demand-client" }
+switchboard-on-demand-client = { version = "=0.4.1" }
 tokio = { version = "1.47.1", features = ["full", "tracing"] }
 tracing = "0.1.41"
 tracing-subscriber = "0.3.20"
